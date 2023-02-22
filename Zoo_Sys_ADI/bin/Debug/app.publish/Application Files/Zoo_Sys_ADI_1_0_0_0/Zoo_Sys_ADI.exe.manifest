@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Zoo_Sys_ADI.exe" version="1.0.0.0" publicKeyToken="bb59f52a27122e65" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Zoo_Sys_ADI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Zoo_Sys_ADI.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Zoo_Sys_ADI.exe" size="718768">
+      <assemblyIdentity name="Zoo_Sys_ADI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7rX8tn4rP2dvrqQsqrf1h93sruyC2Km1goyyavqZpg4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ADI.mdb" size="536576" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5jF1W5L6o1MSCC0c3Y13vzB9gCmx70IFWFKRZ8wAOVY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Zoo_Sys_ADI.exe.config" size="508">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Gsu0Ifuuz9vQQXuyjP1snBwIMzSvsMz/YFudykB42Bk=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MCWAYZ\Mcwayz" issuerKeyHash="fce80abb350aac3e749574d01522e7d179861f65" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>IHP53YU1DVsaM7K9SXBSkO9g/BZmXw31CDRt4DE+3LA=</DigestValue></Reference></SignedInfo><SignatureValue>Wjt8l/Xo0sRgIa4NAQjgOCTAij60hDGvUlSE9rmRKZhpgV5karnG4aXBBe+sV38dlTA6luCq6qBNQrqdyokAW8JPUZlndHgmgBiW+KndWnPC08uCVUNp0uLmlZEUWcQ+n7hN8y1EmlV8I6yqOYleniPwkUtnRk9jTNyV4iZ2ML0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>q2nbJjwULyv03MPy3rDMq4UdanRsPZkO8bsmPA7GAS1ffbaluHHQ5Ifi/kak8i0iFnNF89RRJjFndknXeNh/fdUZ++daZtvVh3RHbUiJ6REGdi5HWENFVsJ1z7DcGvIs+eZ/MdhOO6xjcoWAQzkjFjgIRBQR/mqjewv+J7GPUuk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b0dc3e31e06d3408f50d5f6616fc60ef90527049bdb2331a5b0d3585ddf97320" Description="" Url=""><as:assemblyIdentity name="Zoo_Sys_ADI.exe" version="1.0.0.0" publicKeyToken="bb59f52a27122e65" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MCWAYZ\Mcwayz</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>QHF78lJ8y5OyLY1wOgo6/t4qMZ1Bos7UsLEmO8fLMP8=</DigestValue></Reference></SignedInfo><SignatureValue>qC5kRpsMQmZQgZm9r+DbCfvwOnzxzgvhO166b9LYNpgqcn69LfWCPwb8SoUnIrQIX5MuxxKQvHctXoT4fXUWrQTZgZsunlGD8eAuXwpaEmjH/RyQUlqbgpAoUS66lVyQXQJvrGxk9n7Ewh/GSJZAxtB0CSgCLRu7nJeRGLW7MAU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>q2nbJjwULyv03MPy3rDMq4UdanRsPZkO8bsmPA7GAS1ffbaluHHQ5Ifi/kak8i0iFnNF89RRJjFndknXeNh/fdUZ++daZtvVh3RHbUiJ6REGdi5HWENFVsJ1z7DcGvIs+eZ/MdhOO6xjcoWAQzkjFjgIRBQR/mqjewv+J7GPUuk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQIrClyrMq2rBLZuFhLZshCjANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoATQBDAFcAQQBZAFoAXABNAGMAdwBhAHkAejAeFw0yMTA1MDIxOTA2MThaFw0yMjA1MDMwMTA2MThaMCUxIzAhBgNVBAMeGgBNAEMAVwBBAFkAWgBcAE0AYwB3AGEAeQB6MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCradsmPBQvK/Tcw/LesMyrhR1qdGw9mQ7xuyY8DsYBLV99tqW4cdDkh+L+RqTyLSIWc0Xz1FEmMWd2Sdd42H991Rn751pm29WHdEdtSInpEQZ2LkdYQ0VWwnXPsNwa8iz55n8x2E47rGNyhYBDOSMWOAhEFBH+aqN7C/4nsY9S6QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAKs6+hElj0uWliZoVWRmsIk3UaNUQftE5wZ6EWkvyGfUhPLbYTbioLP5SlPtI5zUQOEtrpynpX7REkZTVu9/Jg/r3JyPVjgipvtGFKswYyTSr4pDaz3/sbGL53SDBcgF/6OmY5lsazy4gX3n3E27SWDKNrtAhk4Dx3o0oY9QOld5</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
